@@ -17,5 +17,5 @@ function MagicBypass {
     $buf = [IntPtr[]] ($DummyPointer)
     [System.Runtime.InteropServices.Marshal]::Copy($buf, 0, $MemoryToPatch, 1)
 
-	Write-Host "Anjir bypass
+	Write-Host "Anjir bypass"
 }
